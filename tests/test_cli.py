@@ -15,3 +15,8 @@ def test_main_ok_json():
 def test_main_ok_json_md():
     job = ['name_of_prose.json.md']
     assert cli.main(job) is 0
+
+
+def test_main_nok_unforeseen():
+    job = ['name_of_prose.unforeseen']
+    assert cli.main(job) is 1
