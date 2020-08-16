@@ -6,4 +6,4 @@ Basic flow is to filter the .json schema via weave into a .json.md mixing in exi
 
 Create .json schema again via tangle from .json.md sandwich.
 
-Note: The default branch (with special menaing for github and gitlab users) has the name default 😉
+Note: The default branch (with special meaning for github and gitlab users) has the name default 😉
